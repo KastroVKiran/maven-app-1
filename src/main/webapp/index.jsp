@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kastro Kiran</title>
+    <style>
+        .name {
+            font-weight: bold;
+        }
+        .trainer {
+            color: blue; /* You can change the color here */
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Kastro Kiran's Page</h1>
-    <p>My name is Kastro Kiran, and I am an AWS and DevOps Corporate Trainer.</p>
-    <p>Click <a href="https://youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC&si=7qb7yp6si8oeNwDh" target="_blank">here for AWS Tutorials</a>.</p>
-    <p>Click <a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">here to connect with me on LinkedIn</a>.</p>
+    <h1>Welcome to <span class="name">Kastro Kiran</span>'s Page</h1>
+    <p>My name is <span class="name">Kastro Kiran</span>, and I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
+    <p><a href="https://youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC&si=7qb7yp6si8oeNwDh" target="_blank"><button>AWS FREE Tutorials</button></a></p>
+    <p><a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">Let's Connect Socially on LinkedIn</a>.</p>
 </body>
 </html>
