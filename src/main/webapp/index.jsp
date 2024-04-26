@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-html,body {font-family:"Verdana",sans-serif}
-h1,h2,h3,h4,h5,h6 {font-family:"Segoe UI",sans-serif}
-</style>
-<script src=""></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kastro Kiran</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
 <body>
-
-<img src="img_la.jpg" alt="LA" style="width:100%">
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is a another paragraph.</p>
-
+    <h1>Welcome to <span class="name">Kastro Kiran</span>'s Page</h1>
+    <p>My name is <span class="name">Kastro Kiran</span>, and I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
+    <p><a href="https://youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC&si=7qb7yp6si8oeNwDh" target="_blank"><button class="aws-button">AWS FREE Tutorials</button></a></p>
+    <p><a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">Let's Connect Socially on LinkedIn</a>.</p>
 </body>
 </html>
