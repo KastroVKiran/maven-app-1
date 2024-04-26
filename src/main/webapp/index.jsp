@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kastro Kiran</title>
-    <style>
-        .name {
-            font-weight: bold;
-        }
-        .trainer {
-            color: blue; /* You can change the color here */
-        }
-    </style>
+    <title>Kastro Kiran's Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to <span class="name">Kastro Kiran</span>'s Page</h1>
-    <p>My name is <span class="name">Kastro Kiran</span>, and I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
-    <p><a href="https://youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC&si=7qb7yp6si8oeNwDh" target="_blank"><button>AWS FREE Tutorials</button></a></p>
-    <p><a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">Let's Connect Socially on LinkedIn</a>.</p>
+    <header>
+        <h1>Kastro Kiran's Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="youtube.html">YouTube</a></li>
+                <li><a href="linkedin.html">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="content">
+            <h2>Welcome!</h2>
+            <p>I'm <span class="name">Kastro Kiran V</span>. I'm an <span class="trainer">AWS and DevOps Trainer</span>. I possess 6 years of corporate trainer experience. Besides, I'm currently pursuing my Doctor of Philosophy (PhD) where one of my research is focusing on <span class="highlight">Machine Learning (ML)</span>.</p>
+        </section>
+    </main>
 </body>
 </html>
