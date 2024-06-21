@@ -37,7 +37,7 @@
         }
         .profile-image {
             display: block;
-            max-width: 200px;
+            max-width: 150px; /* Adjust the size as needed */
             border-radius: 50%;
             margin-top: 10px;
             background-color: transparent; /* Ensure transparency */
@@ -45,8 +45,9 @@
         .copyright {
             position: absolute;
             bottom: 20px;
-            text-align: center;
+            text-align: right;
             width: 100%;
+            font-size: 12px; /* Adjust font size as needed */
         }
         .copyright .icon {
             font-size: 14px;
@@ -85,7 +86,7 @@
         </div>
     </div>
     <div class="copyright">
-        <span class="icon">&#169;</span> @Kastro
+        <span class="icon">&#169;</span> Kastro
     </div>
 </body>
 </html>
