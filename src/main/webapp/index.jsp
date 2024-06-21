@@ -25,6 +25,7 @@
             flex-wrap: wrap;
             padding: 20px;
             box-sizing: border-box;
+            position: relative; /* Needed for absolute positioning of image */
         }
         .content {
             flex-basis: 60%;
@@ -41,6 +42,9 @@
             border-radius: 50%;
             margin-top: 10px;
             background-color: transparent; /* Ensure transparency */
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
         }
         .copyright {
             position: absolute;
@@ -68,22 +72,18 @@
                 <a href="https://youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC&si=7qb7yp6si8oeNwDh" target="_blank">
                     <button class="aws-button"><i class="fab fa-aws"></i> AWS FREE Tutorials</button>
                 </a>
-            </p>
-            <p>
                 <a href="https://www.youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh" target="_blank">
                     <button class="docker-button"><i class="fab fa-docker"></i> Docker - Basics to Brilliance</button>
                 </a>
-            </p>
-            <p>
                 <a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">
                     <button class="linkedin-button"><i class="fab fa-linkedin"></i> Kastro - LinkedIn</button>
                 </a>
             </p>
         </div>
-        <div class="image-container">
-            <!-- Image at the bottom right of the page -->
-            <img src="https://media.licdn.com/dms/image/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/0/1718971147172?e=1724284800&v=beta&t=HJC2dPANaLQK7Rs4P6UoZvRAdz0Se5s5js9SvlzhXXI" alt="Profile Image" class="profile-image">
-        </div>
+    </div>
+    <div class="image-container">
+        <!-- Image at the bottom right of the page -->
+        <img src="https://media.licdn.com/dms/image/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/0/1718971147172?e=1724284800&v=beta&t=HJC2dPANaLQK7Rs4P6UoZvRAdz0Se5s5js9SvlzhXXI" alt="Profile Image" class="profile-image">
     </div>
     <div class="copyright">
         <span class="icon">&#169;</span> Kastro
