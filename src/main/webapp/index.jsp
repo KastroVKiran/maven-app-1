@@ -57,6 +57,9 @@
             font-size: 14px;
             margin-right: 5px;
         }
+        .curriculum {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +67,7 @@
         <div class="content">
             <h1>Hello ... ! <span class="name">Cloud Enthusiast !</span></h1>
             <p>My name is <span class="highlighted-name">Kastro Kiran</span>, I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
-            <p class="curriculum"><em>My Recommended curriculum to become DevOps Engineers</em></p>
+            <p class="curriculum"><em>My Recommended curriculum to become a DevOps Engineer:</em></p>
             <p><strong>AWS Concepts:</strong> Introduction to Cloud, Cloud Service Providers, AWS Global Infrastructure, S3, EFS, EC2, Auto Scaling, Load Balancers, VPC, IAM, RDS, Dynamo DB, SNS, Cloud Watch, LighSail, Cloud Trial, SQS, SES, Route 53, SnowBall, Elastic BeanStalk, Cloud Formation</p>
             <p><strong>Linux and Shell Scripting</strong></p>
             <p><strong>DevOps Concepts:</strong> System Architecture, Introduction to DevOps, SDLC - Concept & Models, Maven, Git, GitHub, Tomcat, Jenkins, Docker, Kubernetes, Terraform, Ansible, SonarQube</p>
@@ -86,7 +89,7 @@
         <img src="https://media.licdn.com/dms/image/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/0/1718971147172?e=1724284800&v=beta&t=HJC2dPANaLQK7Rs4P6UoZvRAdz0Se5s5js9SvlzhXXI" alt="Profile Image" class="profile-image">
     </div>
     <div class="copyright">
-        <span class="icon">&#169;</span> Kastro
+        <span class="icon">&copy;</span> Kastro
     </div>
 </body>
 </html>
