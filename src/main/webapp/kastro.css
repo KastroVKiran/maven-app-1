@@ -9,6 +9,11 @@ body {
     color: #FF9900;
 }
 
+.highlighted-name {
+    color: #FF5E3A; /* Highlighted color */
+    font-weight: bold;
+}
+
 .trainer {
     font-weight: bold;
 }
