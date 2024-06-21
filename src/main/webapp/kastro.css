@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     margin: 20px;
-    background-color: #f0f0f0;
+    text-align: center;
 }
 
 .name {
@@ -10,7 +9,7 @@ body {
 }
 
 .highlighted-name {
-    color: #FF5E3A; /* Highlighted color */
+    color: #FF9900;
     font-weight: bold;
 }
 
@@ -18,33 +17,30 @@ body {
     font-weight: bold;
 }
 
+.curriculum {
+    font-style: italic;
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Example of a stylish font */
+}
+
 .container {
-    max-width: 800px;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Align items to the center */
-    justify-content: space-between; /* Space between content and image */
-    height: 100vh; /* Full viewport height */
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
 }
 
 .content {
-    text-align: center; /* Center align content */
-    width: 100%; /* Ensure content takes full width */
-    margin-bottom: 20px; /* Margin to separate content and image */
-}
-
-.image-container {
-    margin-top: auto; /* Push to the bottom */
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .teacher-image {
-    max-width: 200px; /* Adjust size as needed */
+    width: 50%;
+    max-width: 400px;
     height: auto;
-    display: block;
-    margin-top: 20px; /* Margin to separate image from top */
+    margin: 20px auto;
 }
 
 .aws-button, .docker-button, .linkedin-button {
@@ -64,4 +60,11 @@ body {
 
 .linkedin-button {
     background-color: #0077B5; /* LinkedIn blue */
+}
+
+.image-container {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
 }
