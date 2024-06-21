@@ -11,7 +11,7 @@
     <div class="container">
         <div class="content">
             <h1>Hello ... ! <span class="name">Cloud Enthusiast !</span></h1>
-            <p>My name is <span class="name">Kastro Kiran</span>, I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
+            <p>My name is <span class="highlighted-name">Kastro Kiran</span>, I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
             <p>
                 <a href="https://youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC&si=7qb7yp6si8oeNwDh" target="_blank">
                     <button class="aws-button"><i class="fab fa-aws"></i> AWS FREE Tutorials</button>
@@ -30,7 +30,7 @@
         </div>
         <div class="image-container">
             <!-- Replace the URL with your actual image URL -->
-            <img src="https://media.licdn.com/dms/image/D5603AQHi4PwCGWxwfg/profile-displayphoto-shrink_800_800/0/1669302951638?e=1724284800&v=beta&t=YuFaAZhdj-Uaa0wCWdPNZY2yxmQQaRUhDC_0Hs4V27Q" alt="Profile Image" class="teacher-image">
+            <img src="https://drive.google.com/uc?id=1_hrGLjr_kDXGrRT7V0V_q6-EMebXYCSO" alt="Profile Image" class="teacher-image">
         </div>
     </div>
 </body>
