@@ -7,10 +7,26 @@
     <link rel="stylesheet" type="text/css" href="kastro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .content {
+            flex-basis: 60%;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            flex-basis: 35%;
+            text-align: right;
+            margin-top: 20px;
+        }
         .profile-image {
             display: block;
-            margin: 0 auto;
-            max-width: 300px;
+            max-width: 200px;
+            border-radius: 50%;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -40,7 +56,7 @@
             </p>
         </div>
         <div class="image-container">
-            <!-- Image at the bottom of the page -->
+            <!-- Image at the bottom right of the page -->
             <img src="https://media.licdn.com/dms/image/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/0/1718971147172?e=1724284800&v=beta&t=HJC2dPANaLQK7Rs4P6UoZvRAdz0Se5s5js9SvlzhXXI" alt="Profile Image" class="profile-image">
         </div>
     </div>
