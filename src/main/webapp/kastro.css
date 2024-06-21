@@ -20,7 +20,7 @@ body {
     margin: 20px auto;
 }
 
-.aws-button, .docker-button {
+.aws-button, .docker-button, .linkedin-button {
     display: inline-block;
     background-color: #FF9900; /* AWS orange */
     color: white;
@@ -33,4 +33,8 @@ body {
 
 .docker-button {
     background-color: #2496ED; /* Docker blue */
+}
+
+.linkedin-button {
+    background-color: #0077B5; /* LinkedIn blue */
 }
