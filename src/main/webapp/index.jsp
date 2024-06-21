@@ -21,6 +21,10 @@
             <button class="docker-button"><i class="fab fa-docker"></i> Docker - Basics to Brilliance</button>
         </a>
     </p>
-    <p><a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">Let's Connect Socially on LinkedIn</a>.</p>
+    <p>
+        <a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">
+            <button class="linkedin-button"><i class="fab fa-linkedin"></i> Kastro - LinkedIn</button>
+        </a>
+    </p>
 </body>
 </html>
