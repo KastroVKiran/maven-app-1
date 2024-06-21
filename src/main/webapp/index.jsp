@@ -7,11 +7,24 @@
     <link rel="stylesheet" type="text/css" href="kastro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+        }
         .container {
+            flex: 1;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             flex-wrap: wrap;
+            padding: 20px;
+            box-sizing: border-box;
         }
         .content {
             flex-basis: 60%;
@@ -20,7 +33,7 @@
         .image-container {
             flex-basis: 35%;
             text-align: right;
-            margin-top: 20px;
+            margin-top: auto; /* Pushes the image to the bottom */
         }
         .profile-image {
             display: block;
@@ -28,6 +41,16 @@
             border-radius: 50%;
             margin-top: 10px;
             background-color: transparent; /* Ensure transparency */
+        }
+        .copyright {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .copyright .icon {
+            font-size: 14px;
+            margin-right: 5px;
         }
     </style>
 </head>
@@ -60,6 +83,9 @@
             <!-- Image at the bottom right of the page -->
             <img src="https://media.licdn.com/dms/image/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/0/1718971147172?e=1724284800&v=beta&t=HJC2dPANaLQK7Rs4P6UoZvRAdz0Se5s5js9SvlzhXXI" alt="Profile Image" class="profile-image">
         </div>
+    </div>
+    <div class="copyright">
+        <span class="icon">&#169;</span> @Kastro
     </div>
 </body>
 </html>
