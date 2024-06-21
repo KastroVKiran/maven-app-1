@@ -20,13 +20,19 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Align items to the end (top right) */
+    align-items: center; /* Align items to the center */
+    justify-content: space-between; /* Space between content and image */
+    height: 100vh; /* Full viewport height */
 }
 
 .content {
-    text-align: left;
+    text-align: center; /* Center align content */
     width: 100%; /* Ensure content takes full width */
     margin-bottom: 20px; /* Margin to separate content and image */
+}
+
+.image-container {
+    margin-top: auto; /* Push to the bottom */
 }
 
 .teacher-image {
