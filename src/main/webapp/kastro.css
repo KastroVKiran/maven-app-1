@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.name {
+    color: #FF9900;
+}
+
+.trainer {
+    font-weight: bold;
+}
+
+.teacher-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.aws-button, .docker-button {
+    display: inline-block;
+    background-color: #FF9900; /* AWS orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.docker-button {
+    background-color: #2496ED; /* Docker blue */
+}
