@@ -60,6 +60,9 @@
         .curriculum {
             text-decoration: underline;
         }
+        .name {
+            color: darkblue; /* Changed the color to DarkBlue */
+        }
     </style>
 </head>
 <body>
