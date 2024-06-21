@@ -12,6 +12,11 @@
         <div class="content">
             <h1>Hello ... ! <span class="name">Cloud Enthusiast !</span></h1>
             <p>My name is <span class="highlighted-name">Kastro Kiran</span>, I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
+            <p>I teach AWS and DevOps.</p>
+            <p><strong>AWS Concepts:</strong> Introduction to Cloud, Cloud Service Providers, AWS Global Infrastructure, S3, EFS, EC2, Auto Scaling, Load Balancers, VPC, IAM, RDS, Dynamo DB, SNS, Cloud Watch, LighSail, Cloud Trial, SQS, SES, Route 53, SnowBall, Elastic BeanStalk, Cloud Formation</p>
+            <p>Linux and Shell Scripting</p>
+            <p><strong>DevOps Concepts:</strong> System Architecture, Introduction to DevOps, SDLC - Concept & Models, Maven, Git, GitHub, Tomcat, Jenkins, Docker, Kubernetes, Terraform, Ansible, SonarQube</p>
+            <p></p>
             <p>
                 <a href="https://youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC&si=7qb7yp6si8oeNwDh" target="_blank">
                     <button class="aws-button"><i class="fab fa-aws"></i> AWS FREE Tutorials</button>
