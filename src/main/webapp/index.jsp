@@ -27,6 +27,7 @@
             max-width: 200px;
             border-radius: 50%;
             margin-top: 10px;
+            background-color: transparent; /* Ensure transparency */
         }
     </style>
 </head>
