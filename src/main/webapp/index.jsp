@@ -68,7 +68,7 @@
 <body>
     <div class="container">
         <div class="content">
-            <h1>Hai ... ! <span class="name">Cloud Enthusiast !</span></h1>
+            <h1Hello ... ! <span class="name">Cloud Enthusiast !</span></h1>
             <p>My name is <span class="highlighted-name">Kastro</span>, I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
             <p class="curriculum"><em>My Recommended curriculum to become a DevOps Engineer:</em></p>
             <p><strong>AWS Concepts:</strong> Introduction to Cloud, Cloud Service Providers, AWS Global Infrastructure, S3, EFS, EC2, Auto Scaling, Load Balancers, VPC, IAM, RDS, Dynamo DB, SNS, Cloud Watch, LighSail, Cloud Trial, SQS, SES, Route 53, SnowBall, Elastic BeanStalk, Cloud Formation</p>
